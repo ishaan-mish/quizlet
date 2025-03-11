@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Quiz Container */
+.container {
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 4px 20px rgba(0, 255, 170, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Meaning Box */
+#meaning {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+/* Answer Buttons */
+#options button {
+    background: #272727;
+    color: #0088ff;
+    border: 2px solid transparent;
+    padding: 12px 15px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+/* Hover Effect - Blue */
+#options button:hover {
+    background: #0088ff;
+    color: #121212;
+    transform: scale(1.05);
+}
+
+/* Correct Answer - Green Glow */
+.correct {
+    background: #00ff44 !important;
+    color: #121212 !important;
+    box-shadow: 0px 0px 10px #00ff44;
+}
+
+/* Wrong Answer - Red Glow */
+.wrong {
+    background: #ff4444 !important;
+    color: #ffffff !important;
+    box-shadow: 0px 0px 10px #ff4444;
+}
+
+/* Status Message */
+#status {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    #meaning {
+        font-size: 18px;
+    }
+
+    #options button {
+        font-size: 14px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
