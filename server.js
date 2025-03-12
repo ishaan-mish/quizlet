@@ -7,7 +7,9 @@ const path = require('path');
 const app = express();
 app.use(express.json());
 app.use(cors());
-app.use(express.static(__dirname)); // Serve static files from the same directory
+
+// Serve static files (HTML, CSS, JS) from the same directory
+app.use(express.static(__dirname));
 
 let words = [];
 let questionQueue = [];
@@ -19,12 +21,12 @@ function loadWords() {
         .pipe(csv())
         .on('data', (row) => words.push({ word: row.WORD, meaning: row.MEANING }))
         .on('end', () => {
-            questionQueue = [...words]; // Initialize question queue
+            questionQueue = [...words];
             console.log("✅ Words loaded from CSV!");
         });
 }
 
-loadWords(); // Load words on server start
+loadWords();
 
 // Get a new random question
 app.get('/question', (req, res) => {
@@ -35,14 +37,13 @@ app.get('/question', (req, res) => {
     const wordIndex = Math.floor(Math.random() * questionQueue.length);
     const correctWord = questionQueue[wordIndex];
 
-    // Select 3 incorrect options
     let options = [correctWord.word];
     while (options.length < 4) {
         let randomWord = words[Math.floor(Math.random() * words.length)].word;
         if (!options.includes(randomWord)) options.push(randomWord);
     }
 
-    options.sort(() => Math.random() - 0.5); // Shuffle options
+    options.sort(() => Math.random() - 0.5);
 
     res.json({
         meaning: correctWord.meaning,
@@ -56,20 +57,17 @@ app.post('/answer', (req, res) => {
     const { word, correct } = req.body;
 
     if (correct) {
-        // Remove word from queue if correct
         questionQueue = questionQueue.filter(q => q.word !== word);
         res.json({ message: "Correct! ✅" });
     } else {
-        // If wrong, do nothing (word stays in queue)
         res.json({ message: "Wrong answer ❌" });
     }
 });
 
-// Serve index.html for the root path
-app.get('/', (req, res) => {
+// Serve index.html as the default route
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-// Start server
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
