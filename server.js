@@ -2,11 +2,12 @@ const express = require('express');
 const fs = require('fs');
 const csv = require('csv-parser');
 const cors = require('cors');
+const path = require('path');
 
 const app = express();
 app.use(express.json());
 app.use(cors());
-app.use(express.static('public'));
+app.use(express.static(__dirname)); // Serve static files from the same directory
 
 let words = [];
 let questionQueue = [];
@@ -14,7 +15,7 @@ let questionQueue = [];
 // Load words from CSV
 function loadWords() {
     words = [];
-    fs.createReadStream('words.csv')
+    fs.createReadStream(path.join(__dirname, 'words.csv'))
         .pipe(csv())
         .on('data', (row) => words.push({ word: row.WORD, meaning: row.MEANING }))
         .on('end', () => {
@@ -64,5 +65,11 @@ app.post('/answer', (req, res) => {
     }
 });
 
+// Serve index.html for the root path
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 // Start server
-app.listen(3000, () => console.log("🚀 Server running on http://localhost:3000"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
