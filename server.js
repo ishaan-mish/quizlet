@@ -60,9 +60,17 @@ app.post('/answer', (req, res) => {
         questionQueue = questionQueue.filter(q => q.word !== word);
         res.json({ message: "Correct! ✅" });
     } else {
-        res.json({ message: "Wrong answer ❌" });
+        // Find the correct answer
+        const correctAnswer = words.find(w => w.word === word)?.word;
+
+        // Re-add the incorrect word to the queue
+        const incorrectWord = words.find(w => w.word === word);
+        if (incorrectWord) questionQueue.push(incorrectWord);
+
+        res.json({ message: `Wrong answer ❌ The correct answer is: ${correctAnswer}` });
     }
 });
+
 
 // Serve index.html as the default route
 app.get('*', (req, res) => {

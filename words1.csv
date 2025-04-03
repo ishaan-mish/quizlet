@@ -1,5 +1,4 @@
 WORD,MEANING
-WORD,MEANING
 a blind alley,A direction that leads nowhere
 a bolt from the blue,A great surprise
 a cat's paw,A person used as a tool or dupe
@@ -443,6 +442,7 @@ hoard,Accumulate
 hoax,Trick
 Hobson's choice,No choice at all
 homogeneous,Uniform
+hook, line, and sinker,Completely
 hostile,Antagonistic
 humility,Modesty
 hyperbole,Exaggeration
@@ -574,6 +574,7 @@ livid,Pale
 loaded for bear,Fully prepared
 loath,Unwilling
 loathe,Despise
+lock, stock, and barrel,Completely
 longevity,Long life
 look a gift horse in the mouth,Criticize a gift
 lucrative,Profitable
@@ -728,9 +729,14 @@ platitude,Cliché
 plea bargain,Agree to plead guilty to a lesser charge
 plethora,Overabundance; excess
 plight,Predicament
+poignant,Painful to the feelings, moving
 ponder,Consider carefully
+potent,Intense, strong, powerful
 potentate,Ruler
 potential,Possible
+potpourri,Mixture, melody
+pragmatic,Practical, based on experience
+precedent,Custom, model
 precipitate,Hasten
 preclude,Prevent
 precocious,Reaching maturity early
@@ -740,85 +746,142 @@ premonition,Forewarning
 prerogative,Exclusive power or right
 prestigious,Well-known
 pretext,An excuse
+prevalent,Common, prevailing
+prevarication,Lying, deviation from the truth
 privation,Lack of necessities
+procrastinate,Put off, delay
+prodigious,Enormous, extraordinary
+prodigy,Phenomenon, marvel
 proffer,Offer for acceptance
 profligate,Wasteful
+profound,Intense, deep
+profuse,Abundant, overflowing
 progeny,Descendants
 prognosticate,Foretell the future
 prohibition,Forbidding certain actions
 prolific,Fertile
+promulgate,Make public, proclaim
+propagate,Multiply, spread, produce
+propensity,Inclination, disposition
 propinquity,Nearness in time and place
 propitious,Favorable
+propriety,Correctness, suitability
 proximity,Nearness
+prudent,Cautious, wise
 pugnacious,Combative
 puissant,Powerful
 pungent,Sharply stimulating
+puny,Weak, unimportant
+put the cart before the horse,Reverse the proper order, do things backward
 Pyrrhic victory,Too costly victory
 qualm,Twinge of conscience
+quandary,Dilemma, doubt
 quarry,Something hunted or pursued
+quell,Crush, stop
 quip,Joke
+rabid,Furious, mad, fanatical
 raconteur,Skilled storyteller
+rail,Use abusive language, scold
+raiment,Clothing, dress
 rampant,Flourishing
 rash,Reckless
 rationalize,Give a false reason
+raucous,Shrill, harsh
 raze,Destroy
 realm,Someone's special field
+rebuke,Reprimand, criticize
 recant,Renounce previous statements
 recoil,Draw back
+recondite,Obscure, hidden
+red-letter day,Day of happiness, time for rejoicing
 redolent,Fragrant
 redress,To right a wrong
+refute,Prove wrong, disprove
+relegate,Banish, assign to an inferior position
+remiss,Negligent, careless
 remote,Distant
 remuneration,Reward
+repent,Desire to make amends, regret
 repertoire,Works that an artist is ready to perform
+replenish,To restock, fill again
 replete,Completely filled with
 repose,State of rest
 reprehensible,Blameworthy
 repress,To put down
 reprimand,To scold severely
+reproach,Rebuke, reprimand
+repudiate,Disown, refuse to accept
+repugnant,Repulsive, distasteful
 repulse,Drive back
+reputed,Believed, thought, supposed
 requisite,Requirement
 resourceful,Able to meet any situation
 respite,Postponement
+restrictive,Harsh, confining
 reticent,Uncommunicative; silent
+retort,Reply, answer
 retrospect,Looking backward
 reverberating,Reechoing
+revere,Admire, respect, honor
 revert,Go back
 reviled,Scolded
 rhetoric,Use (sometimes exaggerated) of language
 rife,Widespread
+rift,An opening, a split
 romp,Move in a lively manner
 roster,A list of names
+rudimentary,Basic, elementary
 rue,Regret
+ruminate,Reflect upon, ponder
+rustic,Unpolished, countrified
 saga,Heroic story
+sage,Wise man, philosopher
 salient,Outstanding
 sally,Sudden rushing forth
+salubrious,Wholesome, healthful
 salvation,Deliverance from ruin
 sanctimonious,Hypocritically religious
+sanction,Certify, endorse
 sanctuary,Place of protection
 sanguine,Hopeful
+satiety,Surfeit, excess, fullness
 saturate,Fill up completely
 save face,To avoid disgrace
 schism,Split
 scion,Descendant
 scoff,To mock
 scrutinize,Examine closely
+scurrilous,Vulgar, using indecent language
 scurry,Run quickly
+sedate,Sober, still, quiet, undisturbed
 sedentary,Largely inactive
+senile,Infirm, weak as a result of old age
 serenity,Peaceful repose
+servile,Submissive, slavish
+shibboleth,Slogan, pet phrase
 sinecure,Soft job
+singular,Remarkable, uncommon
 sinister,Evil
 site,Location
+Skid Row,Disreputable part of town, inhabited by derelicts
 skirmish,Small battle
 sleep on it,Postpone a decision while giving it some thought
+slovenly,Disorderly, carelessly
 sojourn,Temporary stay
 solace,Comfort
 solicit,Seek earnestly
+somber,Sad, gloomy
 sophistry,False reasoning or argument
+sordid,Filthy, ignoble
 sour grapes,To disparage something that you cannot have
+spate,Rush, flood
 spew,Vomit
 spontaneous,On the spur of the moment
 sporadic,Occasional
+spurious,Counterfeit, false, specious
 squeamish,Easily shocked
+stagnant,Inactive, dull, motionless
+staunch,Firm, trusty, strong
 steal one's thunder,To weaken one's position by stating the argument before that person does
 steeped,Soaked; saturated; drenched
 stentorian,Loud
@@ -826,32 +889,54 @@ stereotype,Conventional custom
 stiff upper lip,To be courageous in the face of trouble
 stigmatize,To mark with a disgrace
 stipulate,Make a specific demand
+stock in trade,The goods, tools, and other requisites of a trade
+straight from the shoulder,In a direct, open way
+strident,Rough, harsh, shrill
+strife,Unrest, discord
 stunted,Held back or checked in natural growth
+stupor,Insensible condition, daze
 stymie,To hinder
 subjugate,Conquer
+subservient,Obsequious, servile
+substantiate,Ratify, confirm
+subterfuge,A trick, deception
 subterranean,Underground
+succinct,Concise, brief
 succulent,Juicy
 succumb,Yield
+sullen,Grim, ill-humored
 sultry,Torrid
 sumptuous,Lavish
+superficial,On the surface, slight
+superfluous,Surplus, excessive
 supine,Lying on the back
 supplication,Earnest prayer
+surfeit,Superabundance, excess
 surge,To rush suddenly
 surmise,Guess
 surreptitious,Accomplished by secret
 susceptible,Easily affected
 swan song,Final or last
+swap horses in midstream,To vote against a candidate running for reelection, to change one's mind
 symptomatic,Indicative
 taboo,Forbidden
+tacit,Not stated, understood, implied
 taint,Contaminate
 take the bull by the horns,To face a problem directly
 take the wind out of one's sails,To remove someone's advantage
 tangible,Able to be touched
+tantalize,Tease or torment by offering something good, but fail to deliver
+tantamount,Identical, equivalent
+taut,On edge, keyed up, tense
 technology,Related to science of engineering
 technology,Applied science
 temerity,Foolish boldness
 tenable,Supportable; defendable
+tenacious,Stubborn, tough
+termagant,A shrew, a scolding woman
 terminate,To end
+terra firma,Solid, firm land
+terse,Compact, brief, concise
 the acid test,A severe test
 the die is cast,An unchangeable decision has been made
 the distaff side,Women
@@ -859,18 +944,22 @@ the grapevine,A secret means of spreading information
 the lion's share,The major portion
 the sum and substance,The heart or substantial part
 the sword of Damocles,Any imminent danger
+the world, the flesh, and the devil,Temptations that cause man to sin
 the writing on the wall,An event that predicts the future
 therapy,Curing or healing process
+throng,Great number of people, crowd
 through thick and thin,In spite of all sorts of difficulties
 thumbs down,Signal of rejection
 thwart,To hinder
 timorous,Fearful
 tinge,A small amount of; a trace; smattering
 to be at large,Not confined or in jail
+to be in fine fettle,To be in fine spirits, feeling well
 to be under a cloud,To be in temporary disgrace or trouble
 to beard the lion,To visit and oppose a person on his own grounds
 to break the ice,To make a beginning
 to bring down the house,To cause great enthusiasm
+to build upon sand,To have a poor base, or not sufficient preparation
 to burn the midnight oil,To study or work until very late
 to carry the day,To win the approval of the majority
 to cool one's heels,To be kept waiting
@@ -884,8 +973,10 @@ to get one's back up,To become angry
 to get the sack,To be discharged or fired
 to get up on the wrong side of the bed,To be in a bad mood
 to go up in smoke,To come to no practical result
+to have at one's fingertips,To have ready, to have a thorough knowledge
 to hit the nail on the head,To state or guess something correctly
 to lay one's cards on the table,To talk frankly
+to leave no stone unturned,To make every effort, to try one's best
 to lionize a person,To make a big fuss over someone
 to live in a fool's paradise,To be happy without a real basis
 to maintain the status quo,To keep things as they are
@@ -896,8 +987,11 @@ to play possum,To try to fool someone; to make believe one is asleep or dead
 to pour oil on troubled waters,To make peace; to calm someone down
 to pull one's own weight,To do a fair share of the work
 to pull up stakes,To quit a place
+to raise Cain,Make a fuss, cause trouble
 to rub a person the wrong way,To do something to irritate or annoy
+to rule the roost,To be in charge, to be master
 to show one's hand,To reveal one's intentions
+to sow wild oats,To lead a wild, carefree life
 to spill the beans,To give away a secret
 to split hairs,To make fine distinctions
 to strike while the iron is hot,To take action at the right moment
@@ -915,48 +1009,88 @@ to tilt at windmills,To fight imaginary enemies
 to toe the mark,To obey or stick to a rule or policy
 to twist around one's finger,To control completely
 to upset the apple cart,To overturn or disturb a plan or intention
+to whitewash,To cancel defects, to give a falsely virtuous appearance to something
+tolerate,To permit, to put up with
 tongue in cheek,Insincerely
 tortuous,Winding
 tongue in one's cheek,Not to be sincere
 tradition,Long-standing practice
 tranquil,Peaceful
+transient,Fleeting, passing, short-lived
 tremulous,Trembling
+trenchant,Keen, sharp, biting
 trend,General direction
+trivial,Petty, worthless
 truncated,Cut short
+turbulent,Unruly, agitated, riotous
 turn the tables,To turn a situation to one's own advantage
+turpitude,Evil, wickedness, vileness
 tussle,A rough struggle
 two strings to one's bow,Two means of achieving one's aim
+tyro,Novice, beginner
 ubiquitous,Being everywhere at once
 ultimate,Final
+umbrage,Offense, resentment
 unabated,Without subsiding
+unconscionable,Unreasonable, without conscience
 unctuous,Affectedly emotional
 under the wire,Just in time
 underwrite,Agree to finance
 universal,Widespread
+unkempt,Neglected, untidy
+unmitigated,As bad as can be, unrelieved
+unsavory,Morally bad, disagreeable, offensive
+unwieldy,Difficult to handle, bulky
+urbane,Polished, civilized
+usurp,Annex, grab, seize
 utopia,Place of perfection
+vacillate,Fluctuate, hesitate
 valor,Courage
+vapid,Dull, uninteresting
+vehemently,Passionately, violently, eagerly
 veneer,Thin covering
+venerable,Respected, worshipped
+venial,Forgivable, pardonable
 venom,Poison
 vertigo,Dizziness
+vestige,Evidence, trace
 vexatious,Annoying
 viable,Workable
 vicissitudes,Difficulties
 vigil,Wakeful watching
 vigilant,Alert; watchful
+vilify,Slander, malign
+vindicate,Justify, absolve
+virile,Manly, masterful
 virtuosity,Great technical skill
 virulent,Harmful
 vitiate,Destroy the use or value
+vitriolic,Biting, burning
+vituperation,Abuse, blame
+vivacious,Gay, lively
 vogue,Fashion
 volition,Willpower; choice
 voluble,Talkative
+voluminous,Bulky, large
 voracious,Desiring huge amount
+vulnerable,Susceptible, open to attack
 vulnerable,Able to hurt
 wan,Pale
+wane,Decline, decrease
+wary,Watchful, shrewd
 wash dirty linen in public,To openly discuss private affairs
 wear one's heart on one's sleeve,To make one's feelings evident
+wheedle,Persuade, coax, cajole
+whet,Stir up, stimulate
+whimsical,Witty, humorous
+wince,Flinch, draw back
 windfall,Unexpected financial gain
 wink at,To pretend not to see
+wistful,Wishful, pensive, longing
 without rhyme or reason,Making no sense
 woolgathering,Absentmindedness or daydreaming
+worth one's weight in gold,Extremely valuable, very useful
 wrest,Seize
+yen,Strong desire, strong longing
 zealous,Enthusiastic
+zenith,Top, prime, summit
